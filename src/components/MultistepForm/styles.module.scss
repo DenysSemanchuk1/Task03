@@ -1,0 +1,46 @@
+.modal {
+  position: fixed;
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.5);
+  left: 30px;
+  top: 30px;
+  border-radius: 20px;
+}
+
+.panel {
+  height: 60px;
+  background-color: #2a7ada;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: move;
+  border-radius: 20px 20px 0 0;
+}
+
+.bottomPanel {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  right: 15px;
+  height: 40px;
+  z-index: 500;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descrInput {
+  resize: none;
+  margin: 20px 0;
+  width: 100%;
+  display: block;
+}
+
+.modalInner {
+  padding: 10px;
+  overflow-y: auto;
+  height: 70%;
+}
